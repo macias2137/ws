@@ -1,0 +1,31 @@
+.header
+    display: flex
+    justify-content: space-between
+    align-items: center
+    height: $header-height
+    top: 1rem
+    left: 0
+    right: 0
+    padding: 0 4rem
+    background-color: #000000
+    color: white
+    position: absolute
+
+    &__logo
+        height: $header-height * 0.5
+
+    &__menu
+        display: flex
+        text-transform: uppercase
+        font-size: $text-small
+
+        a, a:visited
+            padding: 1rem
+            color: inherit
+            transition: color .5s
+
+        a:hover
+            color: $violet
+            font-size: $text-large
+            
+
