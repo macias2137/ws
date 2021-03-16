@@ -7,7 +7,7 @@ const IconGrid = ({ props }) => (
     <div className="icon__grid">
       <IconGridItem
         className="icon__grid__orange"
-        title="dupcia"
+        title="co możemy dla cb zrobić"
         text="misiu"
       />
       <IconGridItem className="icon__grid__red" title="tyłeczek" text="żabko" />

@@ -11,15 +11,9 @@ const Header = props => (
     </div>
 
     <div className="header__menu">
-      <Link className="header__link__orange" to="/#onas">
-        O nas
-      </Link>
-      <Link className="header__link__pink" to="/#realizacje">
-        Realizacje
-      </Link>
-      <Link className="header__link__violet" to="/#kontakt">
-        Kontakt
-      </Link>
+      <Link to="/#onas">O nas</Link>
+      <Link to="/#realizacje">Realizacje</Link>
+      <Link to="/#kontakt">Kontakt</Link>
     </div>
   </header>
 )
