@@ -58,8 +58,8 @@ export default class Slider extends React.Component {
   render() {
     return [
       <div
-        style={{ height: "100%" }}
-        className={"test"}
+        //style={{ height: "100%" }}
+        className="slider"
         key="flickityBase"
         ref={node => (this.flickityNode = node)}
       />,

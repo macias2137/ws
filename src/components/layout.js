@@ -2,6 +2,7 @@ import * as React from "react"
 
 import Header from "./header"
 import DotImage from "./dot_image"
+import Footer from "./footer"
 import "../styles/app.sass"
 
 const Layout = ({ children }) => {
@@ -10,7 +11,7 @@ const Layout = ({ children }) => {
       <Header />
       <DotImage />
       <main>{children}</main>
-      <footer></footer>
+      <Footer />
     </>
   )
 }
