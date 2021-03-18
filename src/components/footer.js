@@ -1,6 +1,11 @@
 import React from "react"
 import { Link } from "gatsby"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import {
+  faFacebook,
+  faInstagramSquare,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons"
 
 const Footer = () => (
   <footer className="footer">
@@ -13,13 +18,13 @@ const Footer = () => (
       <p>ZOBACZ WIĘCEJ</p>
       <div className="footer__nav__icons">
         <Link to="https://facebook.com/warsaw-streaming">
-          <i className="fab fa-instagram-square" />
+          <FontAwesomeIcon icon={faFacebook} />
         </Link>
         <Link to="https://www.instagram.com/warsaw_streaming">
-          <i className="fab fa-facebook" />
+          <FontAwesomeIcon icon={faInstagramSquare} />
         </Link>
         <Link to="https://www.linkedin.com/company/75721675">
-          <i className="fab fa-linkedin" />
+          <FontAwesomeIcon icon={faLinkedin} />
         </Link>
       </div>
     </div>

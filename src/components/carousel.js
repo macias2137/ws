@@ -10,7 +10,7 @@ import plejady from "./plejady.jpg"
 
 import Slider from "./slider"
 
-const images = [placeholder1, placeholder2, astro, plejady, porn1, porn2, porn3]
+const images = [placeholder1, placeholder2, astro, plejady]
 const titles = []
 for (let i = 0; i < images.length; i++) {
   titles.push(`REALIZACJA ${i + 1}`)
