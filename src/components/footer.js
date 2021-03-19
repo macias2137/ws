@@ -8,7 +8,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons"
 
 const Footer = () => (
-  <footer className="footer">
+  <footer id="kontakt" className="footer">
     <div className="footer__contact">
       <h1>
         KONTAKT
@@ -25,7 +25,6 @@ const Footer = () => (
         tel. 660 572 542
       </p>
     </div>
-
     <div className="footer__nav">
       <p>ZOBACZ WIĘCEJ</p>
       <div className="footer__nav__icons">
