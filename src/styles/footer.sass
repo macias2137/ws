@@ -1,5 +1,5 @@
 .footer
-    height: 232px
+    height: 12em
     width: 100%
     background-color: $black
     display: flex
@@ -10,9 +10,25 @@
     color: $white
     box-sizing: border-box
 
-    &__branding
-        img
-            height: $logo-height
+    &__contact
+        display: flex
+        justify-content: center
+        align-items: center
+
+        h1
+            font-size: 2rem
+            text-align: left
+            padding-right: 8rem
+            margin: 1rem 0
+            line-height: 0.9em
+
+
+        p
+            font-size: $text-medium
+            margin: 1rem 0
+            line-height: 1.4em
+            font-family: $family-secondary
+            font-weight: 400
 
     &__nav
         display: flex
@@ -21,16 +37,13 @@
         align-items: center
         font-size: $text-small
         
+        p
+            margin: 0
 
-    &__nav__icons
-        
+    &__nav__icons        
         a
-            width: 100px
-            height: 100px
+            font-size: 50px
             color: $white
-            line-height: 100px
-            vertical-align: middle
-            padding: 30px
             margin-right: 30px
 
         a:nth-child(3)

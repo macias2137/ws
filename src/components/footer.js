@@ -9,11 +9,23 @@ import {
 
 const Footer = () => (
   <footer className="footer">
-    <div className="footer__branding">
-      <Link to="/">
-        <img className="footer__logo" src="/images/ws-22.svg" alt="logo" />
-      </Link>
+    <div className="footer__contact">
+      <h1>
+        KONTAKT
+        <br />
+        W SPRAWIE
+        <br />
+        OFERT
+      </h1>
+      <p>
+        Maciej Moroz
+        <br />
+        maciej@warsawstreaming.pl
+        <br />
+        tel. 660 572 542
+      </p>
     </div>
+
     <div className="footer__nav">
       <p>ZOBACZ WIĘCEJ</p>
       <div className="footer__nav__icons">
